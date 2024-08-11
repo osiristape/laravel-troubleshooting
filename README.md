@@ -11,5 +11,5 @@
    - HeidiSQL - lightweight, no ORM designer, beginner friendly
 
 -----
-## recents (laravel.x)
+## recents (laravel 11.x)
 - ["php artisan serve" not working](https://github.com/osiristape/laravel-troubleshooting/blob/main/__invoke%20error.md)

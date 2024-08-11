@@ -38,8 +38,9 @@ Solution: Set the correct permissions for storage and bootstrap cache directorie
 # if nothing works from all of these
 
 1. recreate the project 'composer create-project laravel/laravel sample-project'
-2. install the necessesities or needed packages/repositories (for frontend)
-3. rewrite App\Http\Livewire\Frontend\Home.php (or anything 'index.php')
+   - just migrate the frontend libraries(css/js) including database schema (if it's completed) 
+2. reinstall the necessesities or needed packages/repositories (latest version)
+3. rewrite the specific directory, for example: App\Http\Livewire\Frontend\Home.php (or anything 'index.php')
 
 
         namespace App\Http\Livewire\Frontend;
@@ -61,7 +62,7 @@ Solution: Set the correct permissions for storage and bootstrap cache directorie
    
         }
 
-5. Adjust Route Definition:
+4. Adjust Route Definition:
 
 If the class is not meant to be invokable (for example, it's a Livewire component), 
 
@@ -79,7 +80,7 @@ If you're using Livewire, your route should look something like this:
 
 This tells Laravel to use the Home component when the /home route is accessed.
 
-6. If the Class is Not Invokable:
+5. If the Class is Not Invokable:
 
 If the Home class is supposed to have a specific method (like index) that handles the route, 
 

@@ -105,5 +105,6 @@ but it's not finding it. By either adding the __invoke method or correctly defin
 
 the route to use the appropriate method in your class, you should be able to resolve the issue.
 
+![](https://github.com/osiristape/laravel-troubleshooting/blob/main/__invoke%20error/invokeerrorfixed.png)
 
   

@@ -12,4 +12,4 @@
 
 -----
 ## recents (laravel.x)
-["php artisan serve" not working](https://github.com/osiristape/laravel-troubleshooting/blob/main/__invoke%20error.md)
+- ["php artisan serve" not working](https://github.com/osiristape/laravel-troubleshooting/blob/main/__invoke%20error.md)

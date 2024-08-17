@@ -48,6 +48,9 @@ MySQL service can't start.
     "cd C:\laragon\bin\mysql\mysql-9.0.1-winx64\bin"
     "mysqld --initialize --datadir="C:\laragon\data\mysql-9" --basedir="C:\laragon\bin\mysql\mysql-9.0.1-winx64\bin" --console"
 - open your file explorer.exe and paste this "C:\laragon\bin\mysql\mysql-9.0.1-winx64\bin\mysql_configurator.exe"
+
+<img src="https://support.aparavi.com/wp-content/uploads/2023/08/sql81-scr8.png" height="40%" width="40%">
+  
 - mysql_configurator will ask you to fill up including the selected folder and password
 - select "mysql-9.0.1-winx64"
 

@@ -2,8 +2,8 @@
 1. Installation process
 
    Choose server environment
-   - Laragon (recommended in 2024 for beginner)
-   - Xampp - currently tested without ssl protection
+   - Laragon (recommended in 2024 for ~beginner~, not really, you need manuals here)
+   - Xampp - currently tested without ssl protection (this one is more simple to use)
    - Wamp (unupdated since 2023)
 
    Database Management
